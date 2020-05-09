@@ -15,6 +15,7 @@ import 'catalog/bloc/catalog_bloc.dart';
 import 'catalog/my_catalog.dart';
 
 void main(){
+  String test = "Test";
   BlocSupervisor.delegate = SimpleBlocDelegate();
   runApp(MyApp());
 }
